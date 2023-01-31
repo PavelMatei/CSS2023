@@ -1,0 +1,18 @@
+body{ width:100%;
+    max-width: 1000px;
+    margin:auto;
+}
+div{
+background-color: blueviolet;
+padding: 10px;
+border: 10px solid red;
+}
+div>div{
+background-color: aqua;
+}
+div>div>div{
+background-color: chartreuse;
+}
+p{
+    text-align: center;
+}
