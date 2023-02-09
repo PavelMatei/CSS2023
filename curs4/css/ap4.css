@@ -1,0 +1,27 @@
+:root{
+  --primary-color:green;
+  --secondary-color:yellow;
+  --font-color:red;
+  --bg-color:#fff;
+  --heading-color:black;  
+}
+[data-theme="dark"]{
+    --primary-color:purple;
+  --secondary-color:pink;
+  --font-color:forestgreen;
+  --bg-color:#161625;
+  --heading-color:#818cab;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-color);
+    color:var(--font-color);
+    max-width: 90%;
+    margin: 0 auto;
+    font-size:calc(1rem+0.25vh);
+}
+h1{
+    color: var(--heading-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
